@@ -1,0 +1,19 @@
+{
+  "name": "repositorio-de-prueba",
+  "version": "1.0.0",
+  "description": "Ejemplo de creación de repositorio en Github y como deployar mi pagina en la web con Github Pages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeanLarez/Repositorio-de-Prueba.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeanLarez/Repositorio-de-Prueba/issues"
+  },
+  "homepage": "https://github.com/JeanLarez/Repositorio-de-Prueba#readme"
+}
