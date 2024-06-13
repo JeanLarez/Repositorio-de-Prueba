@@ -9,10 +9,63 @@ h1 {
     padding: 24px;
 }
 
-p {
+.principal {
     width: 50%;
     margin: 0 auto;
     background-color: indianred;
     padding: 32px;
     font-size: 24px;
+}
+
+footer {
+    padding: 64px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: chocolate;
+    color: white;
+
+    svg {
+        width: 3rem;
+        height: 3rem;
+        stroke: aliceblue;
+        margin-top: 16px;
+        border-radius: 1rem;
+        padding: 0.25rem;
+        &:hover {
+            background-color: #515ecf;
+        }
+    
+    }
+
+    .icon-tabler-brand-github:hover {
+        background-color: #1b1d1ecc;
+        fill: aliceblue;
+        stroke: none;
+    }
+
+    .icon-tabler-brand-linkedin:hover {
+        background-color: #0a66c2;
+    }
+
+    .instagram:hover {
+        background: radial-gradient(
+          circle at 33% 100%,
+          #fed373 4%,
+          #f15245 30%,
+          #d92e7f 62%,
+          #9b36b7 85%,
+          #515ecf
+        );
+      }
+
+    .x {
+        fill: aliceblue;
+
+        &:hover {
+            background-color: #1b1d1ecc;
+        }
+    }
+    
+
 }
