@@ -64,8 +64,6 @@ footer {
 
     &:hover {
         stroke: aliceblue;
-        padding: 0.50rem;
-
     }
   }
 }
